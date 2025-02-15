@@ -1,4 +1,4 @@
-name: "CI"
+name: "PKG CI"
 
 on:
   workflow_dispatch:
@@ -9,16 +9,17 @@ on:
     types: [published]
 
 jobs:
-  tests:
-    name: "Docs"
+  build:
     runs-on: ubuntu-latest
+    permissions:
+        contents: write
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.x"
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -36,11 +37,20 @@ jobs:
 
       # deploy ----
 
-      - name: publish docs
-        if: github.ref_name == 'main' && github.ref_type == 'branch'
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/_site
           publish_branch: gh-pages
-          destination_dir: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _build/
+          force_orphan: true
+
+      # - name: publish docs
+      #   if: github.ref_name == 'main' && github.ref_type == 'branch'
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: docs/_site
+      #     publish_branch: gh-pages
+      #     destination_dir: main
