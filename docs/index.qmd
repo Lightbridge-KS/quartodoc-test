@@ -1,0 +1,7 @@
+# Home Page
+
+::: {.callout-tip appearance="simple" collapse="false"}
+## This is a tip
+
+Home page content goes here.
+:::

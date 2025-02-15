@@ -1,0 +1,40 @@
+[project]
+name = "mathops"
+description = "Math operations"
+readme = "README.md"
+keywords = []
+license.file = "LICENSE"
+dynamic = ["version"]
+authors = [
+    { name = "Kittipos Sirivongrungson", email = "ki11ip0.s.a.s@gmail.com" }
+]
+
+requires-python = ">=3.10"
+dependencies = [
+    
+]
+
+[project.optional-dependencies]
+docs = [
+    "quartodoc",
+    # quarto render dependencies
+    "jupyter"
+]
+
+[project.urls]
+homepage = "https://github.com/rstudio/vetiver-python"
+documentation = "https://rstudio.github.io/vetiver-python/stable/"
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[tool.setuptools.packages.find]
+# All the following settings are optional:
+where = ["."]  # ["."] by default
+include = ["mathops"]  # ["*"] by default
+exclude = []  # empty by default
+namespaces = true  # true by default

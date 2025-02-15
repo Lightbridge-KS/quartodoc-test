@@ -1,0 +1,50 @@
+project:
+  type: website
+
+
+website:
+  title: "MathOps"
+  description: "Math Operation"
+  page-navigation: true
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Get started"
+        file: get_started.qmd
+      - text: "Reference"
+        href: reference/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/Lightbridge-KS/quartodoc-test
+        aria-label: MathOps GitHub
+
+# # tell quarto to read the generated sidebar
+metadata-files:
+  - _sidebar.yml
+
+# tell quarto to read the generated styles
+# format:
+#   css:
+#     - api/_styles-quartodoc.css
+
+
+quartodoc:
+  # the name used to import the package you want to create reference docs for
+  package: mathops
+  style: pkgdown
+  dir: reference
+  # write sidebar and style data
+  sidebar: _sidebar.yml
+  # css: api/_styles-quartodoc.css
+
+  sections:
+    - title: Math Operations
+      desc: Mathematical Operation
+      contents:
+        # the functions being documented in the package.
+        # you can refer to anything: class methods, modules, etc..
+        - math_operations
+        - string_operations
