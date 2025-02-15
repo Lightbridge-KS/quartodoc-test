@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "get_started.html",
+    "href": "get_started.html",
+    "title": "Get started with MathOps",
+    "section": "",
+    "text": "Hello"
+  },
+  {
+    "objectID": "reference/string_operations.html",
+    "href": "reference/string_operations.html",
+    "title": "string_operations",
+    "section": "",
+    "text": "string_operations\n\n\n\n\n\nName\nDescription\n\n\n\n\nis_palindrome\nCheck if a string is a palindrome.\n\n\nreverse_string\nReturn the reversed version of the input string.\n\n\nto_lowercase\nConvert a string to lowercase.\n\n\nto_uppercase\nConvert a string to uppercase.\n\n\n\n\n\nstring_operations.is_palindrome(text)\nCheck if a string is a palindrome.\n\n\n\nstring_operations.reverse_string(text)\nReturn the reversed version of the input string.\n\n\n\nstring_operations.to_lowercase(text)\nConvert a string to lowercase.\n\n\n\nstring_operations.to_uppercase(text)\nConvert a string to uppercase.",
+    "crumbs": [
+      "Reference",
+      "Math Operations",
+      "string_operations"
+    ]
+  },
+  {
+    "objectID": "reference/string_operations.html#functions",
+    "href": "reference/string_operations.html#functions",
+    "title": "string_operations",
+    "section": "",
+    "text": "Name\nDescription\n\n\n\n\nis_palindrome\nCheck if a string is a palindrome.\n\n\nreverse_string\nReturn the reversed version of the input string.\n\n\nto_lowercase\nConvert a string to lowercase.\n\n\nto_uppercase\nConvert a string to uppercase.\n\n\n\n\n\nstring_operations.is_palindrome(text)\nCheck if a string is a palindrome.\n\n\n\nstring_operations.reverse_string(text)\nReturn the reversed version of the input string.\n\n\n\nstring_operations.to_lowercase(text)\nConvert a string to lowercase.\n\n\n\nstring_operations.to_uppercase(text)\nConvert a string to uppercase.",
+    "crumbs": [
+      "Reference",
+      "Math Operations",
+      "string_operations"
+    ]
+  },
+  {
+    "objectID": "reference/math_operations.html",
+    "href": "reference/math_operations.html",
+    "title": "math_operations",
+    "section": "",
+    "text": "math_operations\n\n\n\n\n\nName\nDescription\n\n\n\n\nadd\nReturn the sum of two numbers.\n\n\ndivide\nReturn the division of two numbers, handling zero division.\n\n\nmultiply\nReturn the product of two numbers.\n\n\nsubtract\nReturn the difference between two numbers.\n\n\n\n\n\nmath_operations.add(a, b)\nReturn the sum of two numbers.\n\n\n\nmath_operations.divide(a, b)\nReturn the division of two numbers, handling zero division.\n\n\n\nmath_operations.multiply(a, b)\nReturn the product of two numbers.\n\n\n\nmath_operations.subtract(a, b)\nReturn the difference between two numbers.",
+    "crumbs": [
+      "Reference",
+      "Math Operations",
+      "math_operations"
+    ]
+  },
+  {
+    "objectID": "reference/math_operations.html#functions",
+    "href": "reference/math_operations.html#functions",
+    "title": "math_operations",
+    "section": "",
+    "text": "Name\nDescription\n\n\n\n\nadd\nReturn the sum of two numbers.\n\n\ndivide\nReturn the division of two numbers, handling zero division.\n\n\nmultiply\nReturn the product of two numbers.\n\n\nsubtract\nReturn the difference between two numbers.\n\n\n\n\n\nmath_operations.add(a, b)\nReturn the sum of two numbers.\n\n\n\nmath_operations.divide(a, b)\nReturn the division of two numbers, handling zero division.\n\n\n\nmath_operations.multiply(a, b)\nReturn the product of two numbers.\n\n\n\nmath_operations.subtract(a, b)\nReturn the difference between two numbers.",
+    "crumbs": [
+      "Reference",
+      "Math Operations",
+      "math_operations"
+    ]
+  },
+  {
+    "objectID": "reference/index.html",
+    "href": "reference/index.html",
+    "title": "Function reference",
+    "section": "",
+    "text": "Mathematical Operation\n\n\n\nmath_operations\n\n\n\nstring_operations",
+    "crumbs": [
+      "Reference",
+      "Function reference"
+    ]
+  },
+  {
+    "objectID": "reference/index.html#math-operations",
+    "href": "reference/index.html#math-operations",
+    "title": "Function reference",
+    "section": "",
+    "text": "Mathematical Operation\n\n\n\nmath_operations\n\n\n\nstring_operations",
+    "crumbs": [
+      "Reference",
+      "Function reference"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home Page",
+    "section": "",
+    "text": "Home Page\n\n\n\n\n\n\nThis is a tip\n\n\n\n\n\nHome page content goes here."
+  }
+]
